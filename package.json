@@ -4,7 +4,7 @@
   "description": "url-shortener with nextjs express mongodb ",
   "main": "server.js",
   "scripts": {
-    "dev":"nodemon",
+    "dev": "nodemon",
     "build": "next build",
     "start": "next start"
   },
@@ -25,10 +25,16 @@
   },
   "homepage": "https://github.com/b-haytham/url-shortener#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
+    "helmet": "^3.23.3",
     "mongoose": "^5.9.21",
     "next": "^9.4.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.13.1",
+    "react-loader-spinner": "^3.1.14",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
   }
 }
