@@ -34,6 +34,9 @@
     padding: 0 10px;
     margin: 20px;
 }
+.input:focus {
+    outline: none;
+}
 
 .button{
     padding: 10px 15px;
@@ -56,6 +59,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .error{
@@ -71,4 +76,24 @@
     width: 100%;
     margin: 20px auto;
     text-align: center;
+}
+
+.buttonCopy{
+    width: 100px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 15px;
+}
+
+.buttonCopy:hover , .buttonCopy:active {
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    outline: none;
+} 
+
+.buttonCopy:focus , .button:focus{
+    outline: none;
 }
